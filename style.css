@@ -1,0 +1,75 @@
+.header {
+    background-color: #1F2937;
+}
+
+.body {
+    background-color: #1F2937;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #e5e7eb;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.text, 
+.right-links {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+li {
+    list-style: none;
+}
+
+.qoute {
+    background-color: #e5e7eb;
+}
+
+.text-two {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+}
+
+.sign-up {
+    background-color: #3882f6;
+}
+
+.call {
+    color: #e5e7eb;
+}
+
+.title-two {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.illustration {
+    color: #1F2937;
+}
+
+.thor {
+    font-weight: bold;
+}
