@@ -1,14 +1,53 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.middle {
+    flex-grow: 1;
+}
+
 .header {
     background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 100px;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
 }
 
 .body {
     background-color: #1F2937;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image {
+    background-color: grey;
+    width: 800px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer {
     background-color: #1F2937;
     color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
 }
 
 .title {
@@ -28,6 +67,11 @@
     color: #e5e7eb;
 }
 
+.text {
+    margin-bottom: 16px;
+    font-size: 18px;
+}
+
 a {
     text-decoration: none;
     color: #e5e7eb;
@@ -39,37 +83,75 @@ li {
 
 .qoute {
     background-color: #e5e7eb;
+    padding: 50px 200px;
+
 }
 
 .text-two {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+    margin-bottom: 16px;
 }
 
 button {
     background-color: #3882f6;
     color: #e5e7eb;
+    padding: 8px 24px;
+    border: 1px solid #F9FAF8;
+    border-radius: 8px;
 }
 
 .sign-up {
     background-color: #3882f6;
+    margin: 100px;
+    padding: 25px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
 }
 
 .call {
     color: #e5e7eb;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .title-two {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    padding: 24px;
 }
 
-.illustration {
+.subtext {
     color: #1F2937;
+    flex-wrap: wrap;
 }
 
 .thor {
     font-weight: bold;
+    text-align: end;
 }
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-image {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 100px;
+    margin-bottom: 50px;
+    max-width: 250px;
+}
+
+.box img {
+    max-width: 250px;
+    max-height: 250px;
+}
+
